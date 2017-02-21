@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,75 +8,76 @@
 </head>
 
 <body>
-	<div id="header">
-	 <h1>Portland Pizza Palace:</h1>
-	</div>
-		<div id="contain">
-			<div id="col1">
-					<div class="item">
-					  <h2>Size:</h2><br>
-					  <input class="size" type="radio" name="Size" value="Extra Large"> Extra Large</input>&nbsp&nbsp $16.00<br>
-					  <input class="size" type="radio" name="Size" value="Large" checked> Large</input>&nbsp&nbsp $14.00<br>
-					  <input class="size" type="radio" name="Size" value="Medium"> Medium</input>&nbsp&nbsp $10.00<br>
-					  <input class="size" type="radio" name="Size" value="Personal"> Personal</input>&nbsp&nbsp $6.00
-					</div>
-					<div class="item">
-					  <h2>Meat:</h2><br>
-					  <p>(+$1.00 each additional veggie item beyond the first meat item)</p><br>
-					  <input class="meats" type="checkbox" name="Meat" value="Pepperoni"> Pepperoni</input><br>
-					  <input class="meats" type="checkbox" name="Meat" value="Sausage"> Sausage</input><br>
-					  <input class="meats" type="checkbox" name="Meat" value="Canadian Bacon"> Canadian Bacon</input><br>
-					  <input class="meats" type="checkbox" name="Meat" value="Ground Beef"> Ground Beef</input><br>
-					  <input class="meats" type="checkbox" name="Meat" value="Anchovies"> Anchovies</input><br>
-					  <input class="meats" type="checkbox" name="Meat" value="Chicken"> Chicken</input>
-					</div>
-					<div class="item">
-					  <h2>Crust:</h2><br>
-					  <input class="crust" type="radio" name="Crust" value="Plain Crust" checked>Plain Crust</input><br>
-					  <input class="crust" type="radio" name="Crust" value="Garlic Butter Crust">Garlic Butter Crust</input><br>
-					  <input class="crust" type="radio" name="Crust" value="Cheese Stuffed Crust">Cheese Stuffed Crust</input>&nbsp&nbsp +$3.00<br>
-					  <input class="crust" type="radio" name="Crust" value="Spicy Crust">Spicy Crust</input><br>
-					  <input class="crust" type="radio" name="Crust" value="House Special Crust">House Special Crust</input>
-					</div><!--
-			--></div>
-			<div id="col2">
-					<div class="item">
-					  <h2>Veggies:</h2><br>
-					  <p>(+$1.00 each additional veggie items beyond the first veggie item)</p><br>
-					  <input class=" veggies" type="checkbox" name="Veggies" value="Tomatoes">Tomatoes</input><br>
-					  <input class=" veggies" type="checkbox" name="Veggies" value="Onions">Onions</input><br>
-					  <input class=" veggies" type="checkbox" name="Veggies" value="Olives">Olives</input><br>
-					  <input class=" veggies" type="checkbox" name="Veggies" value="Green Peppers">Green Peppers</input><br>
-					  <input class=" veggies" type="checkbox" name="Veggies" value="Mushrooms">Mushrooms</input><br>
-					  <input class=" veggies" type="checkbox" name="Veggies" value="Pineapple">Pineapple</input><br>
-					  <input class=" veggies" type="checkbox" name="Veggies" value="Spinach">Spinach</input><br>
-					  <input class=" veggies" type="checkbox" name="Veggies" value="Jalapeno">Jalapeno</input>
-					</div>
-					<div class="item">
-					  <h2>Cheese:</h2><br>
-					  <input class="cheese" type="radio" name="Cheese" value="Regular" checked> Regular</input><br>
-					  <input class="cheese" type="radio" name="Cheese" value="No Cheese"> No Cheese</input><br>
-					  <input class="cheese" type="radio" name="Cheese" value="Extra Cheese"> Extra Cheese</input>&nbsp&nbsp +$3.00
-					</div>
-					<div class="item">
-					  <h2>Sauce:</h2><br>
-					  <input class="sauce" type="radio" name="Sauce" value="Marinara" checked> Marinara</input><br>
-					  <input class="sauce" type="radio" name="Sauce" value="White Sauce"> White Sauce</input><br>
-					  <input class="sauce" type="radio" name="Sauce" value="Barbeque"> Barbeque</input><br>
-					  <input class="sauce" type="radio" name="Sauce" value="No Sauce"> No Sauce</input>
-					</div>
-				</div>
-			</div>
-		</div>
-			<input id="btnOrder" type="button" onclick="myCalc()" value="Order">
-					<div id="reciept">
-						<div id="showText"></div>
-						<div id="totalPrice"></div>
-					</div>
-					<br>
-	<div class="footer">
-			PPP &nbsp;|&nbsp; &copy; 2017
-	</div>
+  <div id="header">
+    <h1>Portland Pizza Palace:</h1>
+  </div>
+  <div id="contain">
+    <div id="col1">
+      <div class="item">
+        <h2>Size:</h2><br>
+        <input class="size" type="radio" name="Size" value="Extra Large"> Extra Large</input>&nbsp&nbsp $16.00<br>
+        <input class="size" type="radio" name="Size" value="Large" checked> Large</input>&nbsp&nbsp $14.00<br>
+        <input class="size" type="radio" name="Size" value="Medium"> Medium</input>&nbsp&nbsp $10.00<br>
+        <input class="size" type="radio" name="Size" value="Personal"> Personal</input>&nbsp&nbsp $6.00
+      </div>
+      <div class="item">
+        <h2>Meat:</h2><br>
+        <p>(+$1.00 each additional veggie item beyond the first meat item)</p><br>
+        <input class="meats" type="checkbox" name="Meat" value="Pepperoni"> Pepperoni</input><br>
+        <input class="meats" type="checkbox" name="Meat" value="Sausage"> Sausage</input><br>
+        <input class="meats" type="checkbox" name="Meat" value="Canadian Bacon"> Canadian Bacon</input><br>
+        <input class="meats" type="checkbox" name="Meat" value="Ground Beef"> Ground Beef</input><br>
+        <input class="meats" type="checkbox" name="Meat" value="Anchovies"> Anchovies</input><br>
+        <input class="meats" type="checkbox" name="Meat" value="Chicken"> Chicken</input>
+      </div>
+      <div class="item">
+        <h2>Crust:</h2><br>
+        <input class="crust" type="radio" name="Crust" value="Plain Crust" checked>Plain Crust</input><br>
+        <input class="crust" type="radio" name="Crust" value="Garlic Butter Crust">Garlic Butter Crust</input><br>
+        <input class="crust" type="radio" name="Crust" value="Cheese Stuffed Crust">Cheese Stuffed Crust</input>&nbsp&nbsp +$3.00<br>
+        <input class="crust" type="radio" name="Crust" value="Spicy Crust">Spicy Crust</input><br>
+        <input class="crust" type="radio" name="Crust" value="House Special Crust">House Special Crust</input>
+      </div>
+      <!--
+			-->
+    </div>
+    <div id="col2">
+      <div class="item">
+        <h2>Veggies:</h2><br>
+        <p>(+$1.00 each additional veggie items beyond the first veggie item)</p><br>
+        <input class=" veggies" type="checkbox" name="Veggies" value="Tomatoes">Tomatoes</input><br>
+        <input class=" veggies" type="checkbox" name="Veggies" value="Onions">Onions</input><br>
+        <input class=" veggies" type="checkbox" name="Veggies" value="Olives">Olives</input><br>
+        <input class=" veggies" type="checkbox" name="Veggies" value="Green Peppers">Green Peppers</input><br>
+        <input class=" veggies" type="checkbox" name="Veggies" value="Mushrooms">Mushrooms</input><br>
+        <input class=" veggies" type="checkbox" name="Veggies" value="Pineapple">Pineapple</input><br>
+        <input class=" veggies" type="checkbox" name="Veggies" value="Spinach">Spinach</input><br>
+        <input class=" veggies" type="checkbox" name="Veggies" value="Jalapeno">Jalapeno</input>
+      </div>
+      <div class="item">
+        <h2>Cheese:</h2><br>
+        <input class="cheese" type="radio" name="Cheese" value="Regular" checked> Regular</input><br>
+        <input class="cheese" type="radio" name="Cheese" value="No Cheese"> No Cheese</input><br>
+        <input class="cheese" type="radio" name="Cheese" value="Extra Cheese"> Extra Cheese</input>&nbsp&nbsp +$3.00
+      </div>
+      <div class="item">
+        <h2>Sauce:</h2><br>
+        <input class="sauce" type="radio" name="Sauce" value="Marinara" checked> Marinara</input><br>
+        <input class="sauce" type="radio" name="Sauce" value="White Sauce"> White Sauce</input><br>
+        <input class="sauce" type="radio" name="Sauce" value="Barbeque"> Barbeque</input><br>
+        <input class="sauce" type="radio" name="Sauce" value="No Sauce"> No Sauce</input>
+      </div>
+    </div>
+  </div>
+	<input id="btnOrder" type="button" onclick="myCalc()" value="Order">
+  <div id="reciept">
+    <div id="showText"></div>
+    <div id="totalPrice"></div>
+  </div>
+  <br>
+  <div class="footer">
+    PPP &nbsp;|&nbsp; &copy; 2017
+  </div>
 </body>
 <script src="./js/pizza.js"></script>
 
