@@ -69,7 +69,7 @@ p {
 #btnOrder {
 	cursor: pointer;
 	padding: 10px;
-    font-family: Verdana, Georgia, serif;
+    	font-family: Verdana, Georgia, serif;
 	font-size: 14px;
 	transition-property: transform background, box-shadow, color;
 	transition-duration: .3s, .5s, .2s;
